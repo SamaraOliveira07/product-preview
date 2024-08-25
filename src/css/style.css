@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    box-sizing: border-box;
+    background-color: pink;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100dvh;
+    justify-content: center;
+}
+
+.img-product{
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: right;
+    height: 550px;
+    width: 400px;
+}
+
+.product{
+    height: 550px;
+    width: 400px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.416);
+}
+
+.descrition-product{
+    background-color: white;
+    height: 550px;
+    width: 400px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.416);
+}
+
+.descrition-product > h2{
+    letter-spacing: 5px;
+    color: gray;
+    margin: 20px;
+}
+
+.descrition-product > h1{
+    margin: 20px;
+    margin-top: 50px;
+    font-family: "Playfair Display", serif;
+}
+
+.descrition-product > p{
+    margin: 20px;
+    margin-top: 50px;
+    text-indent: 20px;
+    color: gray;
+    text-align: justify;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+    margin-left: 60px;
+    margin-right: 120px;
+}
+
+.price > h3{
+    color: purple;
+    font-size: 3em;
+}
+
+.price > p{
+    text-decoration: line-through;
+    color: rgb(84, 84, 84);
+    font-size: 1.2em;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    width: 80%;
+}
+
+button > p{
+    margin: 10px;
+}
